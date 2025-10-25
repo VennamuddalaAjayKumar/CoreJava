@@ -1,0 +1,11 @@
+package abstraction;
+
+public abstract class ATM {
+	abstract void withdraw();
+	abstract void checkbalance();
+	abstract void deposit();
+	
+	public void insertCard() {
+		System.out.println("Inserting the card......");
+	}
+}
